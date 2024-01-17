@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+<link href="CSS/typing.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+h1 {
+   font-family: 'Bebas', sans-serif;
+   color: black;
+   font-size: 80px;
+   display: inline-block;
+   margin-left: 60px;
+}
+
+h2 {
+  font-family: 'Bebas', sans-serif;
+  line-height: 1;
+  color: white;
+  text-align: left;
+  font-size: 50px;
+}
+
+#sub {
+  font-family: 'Bebas', sans-serif;
+  color: black;
+  font-size: 30px;
+  margin-top: -40px;
+}
+ 
+#social {
+  font-family: 'Bebas', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+</style>
+
+<title>My Portfolio</title>
+</head>
+
+<body>
+<header>
+  <h1>Welcome To My Portfolio</h1>
+    
+  <button id="nav" onclick="aboutFunction()">About Me</button>
+
+  <button id="nav" onclick="skillFunction()">Skills</button>
+
+  <button id="nav" onclick="openModal()">Contact Me</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+          <h2 id="text">Contact Information</h2>
+          <h3 id="m_text">Phone Number: 09937909553</h3>
+          <h3 id="m_text">Gmail: Formalchico@gmail.com</h3>
+      </div>
+    </div>
+  </div>
+
+  <button id="nav" onclick="getRandomQuote()">Free Quote</button>
+ 
+</header>
+
+<div class="content-container">
+<img src="chico.png" alt="Chico">
+
+<section>
+  
+  <h2>My Name Is <br> Chico, Christopher Jake R.</h2>
+
+  <div class="animated-text">
+       <h3><span></span></h3>
+  </div>
+ 
+  <h3 id="social">Social Media</h3>
+
+    <ul>
+
+     <li><a href="#" onclick="openFacebook()"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+     <li><a href="#" onclick="openGitHub()"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+     <li><a href="#" onclick="openSpotify()"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
+
+   </ul>
+
+</section>
+
+
+<script src="JS/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+<link href="CSS/slide-in.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+h1 {
+  font-family: 'Bebas', sans-serif;
+  color: black;
+  font-size: 80px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+h3 {
+  font-family: 'Bebas', sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-bottom: -20px;
+}
+
+p {
+  color: white;
+  line-height: 1.6;
+  margin-top: -2;
+  font-size: 20px;
+}
+
+</style>
+
+
+<title>About Me</title>
+
+</head>
+
+<body>
+
+<dialog>
+<p>This is a message box.</p>
+</dialog>
+
+<header>
+
+    <h1>This is all About Me</h1>
+    
+    <button style="color: gold" id="nav" onclick="goBack()">Home</button>
+
+    <button id="nav" onclick="skillFunction()">Skills</button>
+
+    <button id="nav" onclick="openModal()">Contact Me</button>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+          <h3 id="text">Contact Information</h3>
+          <h2 id="m_text" style="margin-top: 50px">Phone Number: 09937909553</h2>
+          <h2 id="m_text">Gmail: Formalchico@gmail.com</h2>
+         </div>
+      </div>
+    </div>
+
+    <button id="nav" onclick="getRandomQuote()">Free Quote</button>
+ 
+</header>
+
+<div class="container">
+
+  <div id="s_quote">
+    <div class="wrapper">
+        <div class="typing-demo">
+    <h2 id="Quote">Quote <br> "Ignorance is Bliss"</h2>
+        </div>
+    </div>
+
+
+
+  </div>
+
+<div id="s_about">
+
+<div class="wrapper2">
+        <div class="typing-demo2">  
+<h3>About Me</h3>
+        
+
+
+<p>
+I'm a College Student aspiring to be a Backend Developer, <br>My favorite programming language is Java and still trying to master it. Considering my skills right now,<br> I am not satisfied in terms of my progress. I am a avid gamer, I play games whenever I have the time to<br>but still manage my tasks well. I have a schedule that I always make. To be able to do the things that<br> need to be done and not forget about it. I also am into makings computers may it be looking at pc parts<br> or fixing it.
+</p>
+        </div>
+</div>
+	
+</div>
+
+
+<div id="s_hobby">
+
+<div class="wrapper3">
+        <div class="typing-demo3"> 
+<h3 id="hobby">Hobbies</h3>
+
+<ol>
+   <li>Learning Java</li>
+   <li>Playing Games</li>
+   <li>Sleeping</li>
+   <li>Hanging Out</li>
+   <li>Sleeping Again</li>
+</div>
+    </div>
+       </div>
+    </div>
+</div>
+
+
+
+
+<script src="JS/javascript.js"></script>
+
+</script>
+</body>
+</html>
